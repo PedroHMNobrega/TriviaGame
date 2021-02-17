@@ -1,0 +1,21 @@
+.game-over-screen_info {
+    font-size: 30px;
+    font-weight: var(--thin);
+    margin-bottom: 30px;
+}
+
+.game-over-screen_info span:first-child {
+    margin-right: 20px;
+}
+
+.game-over-screen button {
+    width: 200px;
+    font-size: 22px;
+    font-family: var(--font-family);
+    font-weight: var(--bold);
+    height: 40px;
+    background-color: var(--primary);
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+}

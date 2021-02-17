@@ -1,0 +1,15 @@
+.ranking_table {
+    margin: 0 auto;
+}
+
+.ranking_table tr {
+    height: 30px;
+}
+
+.ranking_table td, .ranking_table th  {
+    padding: 10px 20px;
+}
+
+.ranking_table td {
+    word-break: break-all;
+}

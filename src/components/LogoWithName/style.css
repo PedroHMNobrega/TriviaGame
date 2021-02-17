@@ -1,0 +1,11 @@
+.logo-with-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-with-name_title {
+    font-size: 60px;
+    text-align: center;
+    margin-left: 20px;
+}

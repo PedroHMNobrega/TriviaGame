@@ -1,0 +1,93 @@
+.question.box {
+    max-width: 800px;
+}
+
+.question_info{
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question_info h2 {
+    font-size: 20px;
+    font-weight: var(--thin);
+    margin: 0 20px 0 20px;
+}
+
+.question_title {
+    margin: 30px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question_title h1 {
+    font-size: 45px;
+    margin-left: 10px;
+}
+
+.question_game-score {
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: var(--thin);
+}
+
+.question_text {
+    font-size: 25px;
+    margin: 0 30px 30px 30px;
+}
+
+.question_answers {
+    font-size: 25px;
+}
+
+.question_answer-container {
+    min-height: 50px;
+    line-height: 50px;
+    background-color: var(--primary);
+    margin: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.question_answer-selected {
+    background-color: var(--blue);
+}
+
+.question_answer-disabled {
+    background-color: #2b2b2b;
+    color: #3e3e3e;
+    cursor: default;
+}
+
+.question_help {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.question_help span {
+    font-size: 16px;
+    position: relative;
+    top: -12px;
+    left: 5px;
+}
+
+.question_help-icon {
+    margin: 0 10px;
+}
+
+.question button {
+    width: 200px;
+    font-size: 22px;
+    font-family: var(--font-family);
+    font-weight: var(--bold);
+    height: 40px;
+    background-color: var(--primary);
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+}

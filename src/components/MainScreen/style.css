@@ -1,0 +1,22 @@
+.main-screen {
+    margin-top: 30px;
+    min-width: 700px;
+}
+
+.main-screen .box {
+    text-align: center;
+    margin: 50px auto 0 auto;
+    background-color: var(--secondary);
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.main-screen .box-title {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.main-screen footer {
+    padding: 20px 0;
+}

@@ -1,0 +1,15 @@
+:root {
+  --primary: #f6872e;
+  --secondary: #3f3a37;
+  --background: #383e4e;
+  --blue: #252169;
+  --bold: 500;
+  --thin: 300;
+  --font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+  background-color: var(--background);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
